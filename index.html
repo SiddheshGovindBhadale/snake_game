@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<link href="./style.css" rel="stylesheet" >
+<title>🐍 Game</title>
+</head>
+<body>
+<div id="score" >
+     <div><h1>Game Over</h1></div>
+     <div class="item" >
+         <b>Score : </b><span class="mainScore" >0</span>
+     </div>
+     <div class="item" >
+         <b>Hiscore : </b><span class="hicore" >0</span>
+     </div>
+</div>
+<div class="body" >
+     <div id="board" >
+     
+     </div>
+     <div class="controls" >
+          <div class="top" >
+               <button onclick="up()">up</button>
+          </div>
+          <div class="center" >
+               <button onclick="left()" class="left" >left</button>
+               <button onclick="right()">right</button>
+          </div>
+          <div class="bottom" >
+               <button onclick="down()">down</button>
+          </div>
+     </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
